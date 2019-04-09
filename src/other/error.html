@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="google" content="notranslate" />
+  <title>{{ title }}</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .app-header {
+      display: flex;
+      height: 60px;
+      padding: 0 20px;
+      background: #0064ff;
+      box-sizing: border-box;
+    }
+    .app-header__logo {
+      line-height: 60px;
+      color: #fff;
+    }
+    .app-header__logo-main {
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .app-header__logo-sub {
+      margin-left: 10px;
+      font-size: 14px;
+    }
+    .app-header__commands {
+      padding: 15px 0;
+      flex: 1;
+      text-align: right;
+    }
+    .app-header__command {
+      line-height: 30px;
+      color: #fff;
+    }
+    .app-container {
+      margin-left: 10px;
+      padding: 20px;
+    }
+    .error-message {
+      padding-top: 50px;
+      margin: 0 auto;
+      width: 400px;
+      line-height: 1.5;
+    }
+    .error-message__code {
+      margin-bottom: 20px;
+      font-size: 30px;
+      color: #333;
+    }
+    .error-message__content {
+      font-size: 20px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-header__logo">
+      <span class="app-header__logo-main">epoos</span>
+      <span class="app-header__logo-sub">邑司</span>
+    </div>
+    <div class="app-header__commands">
+      <a class="app-header__command" href="/api/session/logout">退出</a>
+    </div>
+  </header>
+  <main class="app-container">
+    <div class="error-message">
+      <div class="error-message__code">Error Code:{{ code }}</div>
+      <div class="error-message__content">Error Message: {{ message }}</div>
+    </div>
+  </main>
+</body>
+</html>

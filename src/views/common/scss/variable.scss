@@ -1,0 +1,57 @@
+$font-size-xxs: 12px;
+$font-size-xs: 14px;
+$font-size-s: 16px;
+$font-size-m: 18px;
+$font-size-b: 20px;
+$font-size-xb: 22px;
+$font-size-xxb: 24px;
+$font-size-l: 26px;
+$font-size-xl: 28px;
+$font-size-amazing: 150px;
+
+$font-size-h1: 22px;
+$font-size-h2: 20px;
+$font-size-h3: 18px;
+$font-size-h4: 16px;
+$font-size-h5: 14px;
+$font-size-h6: 12px;
+
+/* Colors
+-------------------------- */
+$color-text-primary: #012257;
+$color-text-secondary: #747d8c;
+$color-text-tip: #97a2b5;
+$color-text-placeholder: #c7cbd1;
+$color-text-nav: #c5cdff;
+$color-text-nav-hover: #fff;
+
+$color-primary: #0064ff;
+$color-success: #00cf64;
+$color-error: #f94040;
+$color-warning: #ff9d1f;
+$color-disable: #f0f3f7;
+
+/* Link
+-------------------------- */
+$link-color: $color-primary;
+$link-hover-color: $color-primary;
+
+/* border
+-------------------------- */
+$border-color:#e4e8ef;
+$border-color-normal: #d5d9e0;
+$border-color-focus: $color-primary;
+$border-color-error: $color-error;
+
+/* Line
+-------------------------- */
+$line-split-color: #fcfcfd;
+
+/* Background
+-------------------------- */
+$background-color-base: #f7f7fa;
+$background-color-footer: #dfe1e6;
+
+/* Icon
+-------------------------- */
+$icon-color-base: #97a2b5;
